@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFF"
+    tools:context="com.example.ygd.lostandfound.NewsDetailActivity">
+
+    <WebView
+        android:id="@+id/wv"
+        android:layout_above="@+id/ib"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></WebView>
+
+    <ImageButton
+        android:id="@+id/ib"
+        android:src="@mipmap/afv"
+        android:background="#FFFF"
+        android:layout_alignParentBottom="true"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+    <TextView
+        android:id="@+id/tv1"
+        android:textSize="30sp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/ib"
+        android:text="赞"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:textSize="24sp"
+        android:layout_toRightOf="@+id/tv1"
+        android:text="人气：0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

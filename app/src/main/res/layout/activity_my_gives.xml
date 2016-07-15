@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ygd.lostandfound.MyGivesActivity">
+    <ListView
+        android:id="@+id/lv"
+        android:layout_below="@+id/bt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+    <Button
+        android:id="@+id/bt"
+        android:text="发布"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

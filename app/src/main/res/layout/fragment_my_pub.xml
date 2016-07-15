@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.MyPubFragment">
+    <Button
+        android:id="@+id/lose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="寻卡启事"
+        android:background="@drawable/btl_box"
+        android:textSize="20sp"
+        android:textColor="#FFFF"
+        android:layout_above="@+id/pick"
+        android:layout_alignEnd="@+id/pick"
+        android:layout_marginBottom="93dp" />
+    <Button
+        android:id="@+id/pick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="招卡启事"
+        android:textColor="#FFFF"
+        android:background="@drawable/btp_box"
+        android:textSize="20sp"
+        android:layout_marginBottom="187dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

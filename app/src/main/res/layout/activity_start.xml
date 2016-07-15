@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg">
+
+    <ImageView
+        android:id="@+id/iv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <EditText
+        android:id="@+id/et1"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/iv1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_box"
+        android:layout_centerHorizontal="true"
+        android:hint="请输入学号"
+        android:drawableLeft="@mipmap/login_username_white"/>
+    <EditText
+        android:id="@+id/et2"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/et1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:background="@drawable/edit_box"
+        android:layout_centerHorizontal="true"
+        android:hint="请输入密码"
+        android:drawableLeft="@mipmap/login_password_white"/>
+    <CheckBox
+        android:id="@+id/cb1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="70dp"
+        android:layout_below="@+id/et2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="记住密码"
+        />
+    <CheckBox
+        android:id="@+id/cb2"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@+id/et2"
+        android:layout_toRightOf="@+id/cb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="自动登录"
+        />
+    <Button
+        android:id="@+id/bt1"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/cb1"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_box"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        android:text="登录"/>
+
+</RelativeLayout>
